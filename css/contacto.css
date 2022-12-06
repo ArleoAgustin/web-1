@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.contacto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 648px;
+    height: 771px;
+    width: 100%;
+
+}
+
+/* LISTA DE CONTACTO */
+
+li {
+
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    width: auto;
+
+}
+
+ul{
+    width: 100%;
+    padding: 0;
+    height: auto;
+
+}
+
+.iconWhatsapp, .iconFacebook, .iconInstagram, .iconHorario {
+   
+    width: 100px;
+    height: 100px;
+    transition: all 500ms ease;
+    border-radius: 100%;
+    margin: 4px;
+
+}
+
+.textoRedes {    
+
+    margin-left: 20px;    
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    transition: all 500ms ease;
+    width: auto;
+    font-size: 140%;
+    font-weight: bold;
+    color: black;
+    
+}

@@ -1,0 +1,65 @@
+
+@media only screen and (min-width: 580px) {
+
+    body {
+
+        background-image: url(../../images/fondo.jpg);
+        background-color: black;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+    .logo {
+
+        width: 50%;
+        height: 40%;
+
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+
+    
+/* CUERPO "SOBRE MI VIANDITA" */
+
+    .descripcion {
+
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 648px;
+
+    }
+
+    /* IMAGEN "MI VIANDITA" */
+
+    .contenedor-imagen {
+
+        width: 20%;
+
+    }
+
+    .logo {
+
+        width: 100%;
+        transition: all 500ms;
+
+    }
+
+    /* PARRAFO DESCRIPTIVO */
+
+    .informacion {
+
+        display: flex;
+        align-items: center;
+        font-size: 35px;
+        width: 70%;
+        background-color: transparent;
+        border: none;
+
+    }
+
+}

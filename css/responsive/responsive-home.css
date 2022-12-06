@@ -1,0 +1,39 @@
+
+@media only screen and (min-width: 580px){
+    
+    body {
+        background-image: url(../../images/home.jpg);
+        background-color: black;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    /* Cuerpo de home */
+    
+    .listaHome {
+        
+        flex-direction: column;
+        opacity: 70%;
+        width: auto;        
+        animation: none;
+    }
+    
+    .listaHome li {
+
+        font-size: 30px;
+        padding: 15px;
+        margin: 40px;
+        background-color: black;
+        border: 5px solid rgb(100, 187, 0);
+        width: auto;
+        
+    }
+    
+    /* OCULTA LAS FOTOS QUE VAN EN EL RESPONSIVE */
+    
+    .listaFotos{
+        display: none;
+    }
+
+}

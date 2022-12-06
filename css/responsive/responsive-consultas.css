@@ -1,0 +1,20 @@
+
+@media only screen and (min-width: 580px){
+
+    body {
+
+        background-image: url(../../images/FONDOcolor.jpg);
+        background-color: black;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+    #textocaptcha {
+     
+        font-size: 98%;
+    
+    }
+
+}

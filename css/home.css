@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+    /* LISTA DE INFORMACION */
+
+    .lista{
+        height: 90%;
+        overflow: hidden;
+    }
+    
+    .listaHome {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        padding: 0;
+        opacity: 100;
+        width: 400%;
+
+        animation: cambio 20s infinite;
+        animation-direction: alternate;
+    }
+
+    .listaHome li {
+        width: 100%;
+        font-family: 'Fjalla One', sans-serif;
+        padding: 20px;
+        margin: 15px;
+        text-align:  center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(18, 75, 18);
+        border: 5px solid rgb(23, 128, 28);
+        border-bottom: 10px solid rgb(13, 44, 14);
+        border-right: 10px solid rgb(26, 85, 29);
+        border-radius: 10px;
+        font-size: 8vw;
+        list-style: none;
+    }
+
+
+
+    @keyframes cambio {
+
+        0% { margin-left: 0;}
+        10% { margin-left: 0;}
+
+        15% { margin-left: -100%;}
+        25% { margin-left: -100%;}
+
+        30% {margin-left: -200%;}
+        40% {margin-left: -200%;}
+
+        45% {margin-left: -300%;}
+        55% {margin-left: -300%;}
+    }
+
+    /* IMAGENES DE HOME */
+
+    .imagenes {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .listaFotos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        padding: 0;
+        opacity: 100;
+        width: 400%;
+
+        animation: cambio 20s infinite;
+        animation-direction: alternate;
+        overflow: hidden;
+    }
+
+    .listaFotos li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        list-style: none;
+        height: auto;
+    }
+
+    .imgInformacion {
+        margin-bottom: 0px;
+        width: 70%;
+        border: 5px solid rgb(255, 187, 0);
+        border-bottom: 7px solid rgb(128, 94, 0);
+        border-right: 7px solid rgb(128, 94, 0);
+        border-radius: 30px;
+    }

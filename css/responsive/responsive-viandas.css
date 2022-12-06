@@ -1,0 +1,173 @@
+
+
+@media only screen and (min-width: 580px){
+    
+    body {
+
+        background-image: url(../../images/fondo_viandas.jpg);
+        background-color: black;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+
+
+    .subtitulo {
+        
+        width: 221px;
+        font-size: 37px;
+        margin-top: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+
+    .fotoComida {
+
+        margin: 50px;
+        width: 300px;
+
+    }
+
+    /* NOMBRE DEL PLATO */
+
+    .descripcionViandas {
+
+        color: white;
+        margin-left: 20px;
+        font-size: 30px;
+        text-align: justify;
+
+    }
+
+    .precio {
+        
+        margin: 40px;
+        font-size: 82px;
+
+    }
+
+    /*CONTENEDOR DE BOTONES */
+
+    .botones {
+
+        justify-content: center;
+
+    }
+
+    button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 19px;
+    text-transform: uppercase;
+    }
+
+    .celiacos{
+        font-size: 25px;
+    }
+    
+
+    th, td {
+        font-size: 24px;
+    }
+
+
+    .botonBorrarTD{
+        font-size: 20px;
+        background-color: white;
+    }
+    
+    .botonEditarTD{
+        font-size: 20px;
+        background-color: white;
+    }
+
+    #btn-celiacos{
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #productoNuevo {
+        font-size: 22px;
+        padding: 5px;
+        height: 10px;
+        width: 80%;
+    }
+    
+    #precioNuevo {
+        font-size: 22px;
+        padding: 5px;
+        height: 10px;
+        width: 80%;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 1200px){
+
+  /* VIANDAS */
+
+    .agregarAtabla{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contenedorVianda {
+
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-bottom: 5%;
+        border: none;
+
+    }
+
+    .plato{
+
+        width: auto;
+
+    }
+
+    .precio {
+
+        width: 20%;
+
+    }
+
+    .botonBorrar{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        padding: 30px 0 30px 0;
+    }
+
+    .botonBorrarTD{
+        padding: 10px;
+    }
+
+    .botonEditarTD{
+        padding: 10px;
+    }
+
+
+    #producto {
+
+        font-size: 2vw;
+
+    }
+
+    #precio {
+
+        font-size: 2vw;
+
+    }
+
+
+
+}
